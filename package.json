@@ -1,0 +1,21 @@
+{
+  "name": "crowdin-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Crowdin translation management",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@crowdin/crowdin-api-client": "^1.52.0",
+    "@modelcontextprotocol/sdk": "^1.26.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
